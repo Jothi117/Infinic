@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+/* Domain Cards Section */
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    height: 30px;
+    width: auto;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card {
+    height: 70px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 40px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Join Community Section */
+.join-community {
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    color: #fff;
+}
+
+.join-now {
+    /* background-color: #f04e23; */
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Top Creators Section */
+.top-creators {
+    padding: 40px;
+}
+
+.top-creators h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.creator-row {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.creator-card {
+    background: #fff;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.creator-card img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.creator-card p {
+    margin: 10px 0;
+}
+
+/* Navigation Bar and Footer */
+header, footer {
+    /* background-color: #333; */
+    /* color: #fff; */
+    padding: 10px 20px;
+}
+
+footer {
+    text-align: center;
+}

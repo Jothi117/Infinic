@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinic - Independent Music App</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="./images/" alt="Infinic Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="./creator.html">Creators</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#concerts">Concert Ticket Booking</a></li>
+            <li><a href="#collaboration">Collaboration</a></li>
+            <li><a href="#connect">Connect with Creators</a></li>
+            <li><a href="#login">Log In</a></li>
+            <li><a href="#get-started" class="cta">Get Started</a></li>
+        </ul>
+    </nav>
+
+    <!-- Container 1: Home with Video and Feedback -->
+    <section id="home" class="container home-container">
+        <video autoplay muted loop class="background-video">
+            <source src="./images/background1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay">
+            <h1>Welcome to Infinic</h1>
+            <p>Experience music like never before.</p>
+            <!-- Artist Feedback -->
+            <div class="feedback">
+                <div class="feedback-item">
+                    <img src="./images/artist1.webp" alt="Artist 1">
+                    <p>"Infinic has transformed how I connect with my fans!"</p>
+                    <span>- Artist Name</span>
+                </div>
+                <div class="feedback-item">
+                    <img src="./images/artist2.jpg" alt="Artist 1">
+                    <p>"Infinic has transformed how I connect with my fans!"</p>
+                    <span>- Artist Name</span>
+                </div>
+                <div class="feedback-item">
+                    <img src="./images/artist3.jpg" alt="Artist 1">
+                    <p>"Infinic has transformed how I connect with my fans!"</p>
+                    <span>- Artist Name</span>
+                </div>
+                <div class="feedback-item">
+                    <img src="./images/artist1.webp" alt="Artist 1">
+                    <p>"Infinic has transformed how I connect with my fans!"</p>
+                    <span>- Artist Name</span>
+                </div>
+                
+                <!-- Repeat feedback-item as needed -->
+            </div>
+        </div>
+    </section>
+     <!-- Feature Section -->
+     <section class="feature-section">
+        <div class="feature-item">
+            <img src="./images/album1.jpeg" alt="Infinic for Artists">
+            <h2>Tools built for your music</h2>
+            <p>Everything you need to manage your artist profile and understand how your music is performing.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="feature-item">
+            <img src="./images/album2.jpeg" alt="Amplify your music">
+            <h2>Amplify your music</h2>
+            <p>Get heard by the right audience with promotional tools and features to help your music shine.</p>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <!-- Artist Story Section -->
+    <section class="artist-story-section">
+        <h2>Hear from artists</h2>
+        <div class="artist-carousel">
+            <div class="artist-item">
+                <img src="./images/artist1.webp" alt="Artist 1">
+                <p>Artist Name 1</p>
+            </div>
+            <div class="artist-item">
+                <img src="./images/artist2.jpg" alt="Artist 2">
+                <p>Artist Name 2</p>
+            </div>
+            <div class="artist-item">
+                <img src="./images/artist1.webp" alt="Artist 3">
+                <p>Artist Name 3</p>
+            </div>
+            <!--  more artist items -->
+        </div>
+    </section>
+
+    <section class="sales-section">
+        <div class="section-header">
+            <h2>SELLING RIGHT NOW</h2>
+            <p>Fans have paid artists <strong>$1.37 billion</strong> using Bandcamp, and <strong>$191 million</strong> in the last year.</p>
+        </div>
+
+        <div class="sales-container">
+            <!-- Sale Item 1 -->
+            <div class="sale-item">
+                <a href="item1.html" class="sale-link">
+                    <img src="./images/album2.jpeg" alt="Looking For You by Dj ">
+                    <div class="item-info">
+                        <h3>Looking For You</h3>
+                        <p>by Dj </p>
+                        <p>Sold for Rs30000</p>
+                        <p>IN India</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Sale Item 2 -->
+            <div class="sale-item">
+                <a href="item2.html" class="sale-link">
+                    <img src="./images/album2.jpeg" alt="Two Wheels and Gone by Overdose">
+                    <div class="item-info">
+                        <h3>Two Wheels and Gone</h3>
+                        <p>by Overdose</p>
+                        <p>Sold for Rs 2000</p>
+                        <p>IN India</p>
+                    </div>
+                </a>
+            </div>
+
+            <!--  sale items  -->
+        </div>
+    </section>
+
+
+   
+
+    
+
+    <!-- Container 4: Concerts and Ticket Booking -->
+    <section id="concerts" class="container concerts-container" >
+        <h2>Find Nearby Concerts</h2>
+        <div class="concerts-content" >
+            <div class="map">
+                <iframe
+                 src="https://maps.google.com/maps?q=concert&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+            <div class="ticket-booking">
+                <h3>Book Your Tickets</h3>
+                <p>Secure your spot at the best concerts.</p>
+                <button onclick="location.href='booking.html'">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Container 6: Listener Feedback -->
+    <!-- <section id="listener-feedback" class="container feedback-container">
+        <h2>Listener Feedback</h2>
+        <div class="feedback-cards">
+            <div class="card">
+                <p>"Infinic makes discovering new music so easy."</p>
+                <span>-Listener</span>
+            </div>
+            <div class="card">
+                <p>"Loved the concert booking feature!"</p>
+                <span>-Listener</span>
+            </div> -->
+            <!-- Repeat cards as needed -->
+        <!-- </div>
+    </section> -->
+
+    <!-- Container 7: Create Team -->
+    <!-- <section id="create-team" class="container team-container">
+        <div class="team-content">
+            <button onclick="location.href='team.html'">Create Team</button>
+            <p>Join our team and collaborate with other artists.</p>
+        </div>
+    </section> -->
+
+  
+
+    <!-- Container 9: Most Watched Short Videos -->
+    <section class="video-section">
+        <h2>Short Videos</h2>
+        <div class="video-container">
+            <!-- First Video Card -->
+            <div class="video-card">
+                <a href="./images/background1.mp4">
+                    <img src="./images/background1.mp4" alt="Video 1 Thumbnail">
+                    <h3>Video Title 1</h3>
+                    <p>description</p>
+                </a>
+            </div>
+
+            <!-- Second Video Card -->
+            <div class="video-card">
+                <a href="./images/background.mp4">
+                    <img src="./images/artist2.jpg" alt="Video 2 Thumbnail">
+                    <h3>Video Title 2</h3>
+                    <p>Description</p>
+                </a>
+            </div>
+
+            <!-- Third Video Card -->
+            <div class="video-card">
+                <a href="./images/background1.mp4">
+                    <img src="./images/artist1.webp" alt="Video 3 Thumbnail">
+                    <h3>Video Title 3</h3>
+                    <p>description</p>
+                </a>
+            </div>
+
+            <!--  video cards as needed -->
+        </div>
+    </section>
+
+    <!-- Fullscreen Video -->
+    <div id="video1" class="modal">
+        <a href="#" class="close">&times;</a>
+        <video controls>
+            <source src="./images/background1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div id="video2" class="modal">
+        <a href="#" class="close">&times;</a>
+        <video controls>
+            <source src="./images/background1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div id="video3" class="modal">
+        <a href="#" class="close">&times;</a>
+        <video controls>
+            <source src="./images/background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <div class="search-bar">
+        <input type="text" placeholder="Search events">
+        <button>Search</button>
+    </div>
+    <div class="location">
+        <p>madurai, IN</p>
+    </div>
+
+
+<!-- Main Section -->
+    <div class="group-header">
+        <img src="./images/feature1.jpeg" alt="Group Image">
+        <div class="group-info">
+            <h1>Music  India</h1>
+            <p><strong> India</strong></p>
+            <p>60 members Public group</p>
+            <p>Organized by <a href="#">abc studio  </a> and <a href="#">2 others</a></p>
+        </div>
+        <div class="group-actions">
+            <button>Join this group</button>
+            <button>Start a new group</button>
+        </div>
+        
+
+ 
+     <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Infinic. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="x-icon.png" alt="X"></a>
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="youtube.png" alt="YouTube"></a>
+                <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
